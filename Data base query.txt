@@ -1,0 +1,22 @@
+create database student_management;
+
+use student_management;
+
+select * from customer;
+
+show tables;
+
+select * from users;
+
+insert into users values(1,'$2a$12$ZZ9VLH4aPoTWKDF49zeyhuK9NMLT8VrKuMklUau2CsPOvnoEPR1ES','Akshay');
+insert into users values(2,'$2a$12$ZZ9VLH4aPoTWKDF49zeyhuK9NMLT8VrKuMklUau2CsPOvnoEPR1ES','Mohit');
+
+select * from roles;
+
+insert into roles values(1,'Admin');
+insert into roles values(2,'User');
+
+select * from users_roles;
+
+insert into users_roles values (1,1);
+insert into users_roles values (2,2);
